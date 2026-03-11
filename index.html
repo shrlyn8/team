@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Favorite Foods</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+/* Custom Styles */
+.hero {
+  background: linear-gradient(to right, #f97316, #fb7185);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+.card img {
+  border-radius: 10px;
+}
+footer {
+  background-color: #f97316;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Favorite Foods</a>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <h1>Welcome to My Favorite Foods</h1>
+    <p class="lead">Here are some of the foods I absolutely love!</p>
+  </div>
+</section>
+
+<!-- Foods Section -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">My Top Foods</h2>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="https://picsum.photos/400/250?1" class="card-img-top" alt="Pizza">
+          <div class="card-body">
+            <h5 class="card-title">Pizza</h5>
+            <p class="card-text">Cheesy, crispy, and always delicious! My go-to comfort food.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="https://picsum.photos/400/250?2" class="card-img-top" alt="Sushi">
+          <div class="card-body">
+            <h5 class="card-title">Sushi</h5>
+            <p class="card-text">Fresh and flavorful, perfect for a light meal or snack.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="https://picsum.photos/400/250?3" class="card-img-top" alt="Ice Cream">
+          <div class="card-body">
+            <h5 class="card-title">Ice Cream</h5>
+            <p class="card-text">Sweet, cold, and refreshing. A perfect treat anytime!</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Share Your Favorite Food</h2>
+    <form>
+      <div class="mb-3">
+        <input type="text" class="form-control" placeholder="Your Name">
+      </div>
+      <div class="mb-3">
+        <input type="text" class="form-control" placeholder="Your Favorite Food">
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p class="mb-0">© 2026 My Favorite Foods | Built with Bootstrap</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
